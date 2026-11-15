@@ -907,66 +907,6 @@ button {
 }
 
 /* =========================================================
-   WORLDSEED LANGUAGE SWITCH
-   FUTURISTIC NAVIGATION STYLE
-========================================================= */
-
-.language-toggle {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row-reverse;
-    gap: 8px;
-
-    padding: 10px 13px;
-    min-width: 58px;
-
-    border: 1px solid var(--border);
-    border-radius: 8px;
-
-    background: transparent;
-    color: var(--text);
-
-    font-family: inherit;
-    font-size: 13px;
-    font-weight: 600;
-
-    cursor: pointer;
-
-    transition:
-        color 0.25s ease,
-        border-color 0.25s ease,
-        background 0.25s ease,
-        box-shadow 0.25s ease;
-}
-
-.language-toggle:hover {
-    color: var(--cyan);
-    border-color: rgba(0, 213, 255, 0.45);
-    background: rgba(0, 213, 255, 0.06);
-    box-shadow: 0 0 18px rgba(0, 213, 255, 0.08);
-}
-
-.language-toggle:focus-visible {
-    outline: 2px solid var(--cyan);
-    outline-offset: 4px;
-}
-
-.language-flag {
-    color: var(--cyan);
-    font-size: 16px;
-    line-height: 1;
-}
-
-/* MOBILE LANGUAGE SWITCH */
-
-@media (max-width: 650px) {
-    .nav-links .language-toggle {
-        align-self: flex-end;
-        margin-top: 12px;
-    }
-}
-/* =========================================================
    WORLDSEED - UIVERSE LANGUAGE TOGGLE
 ========================================================= */
 
