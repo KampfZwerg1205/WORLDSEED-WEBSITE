@@ -57,40 +57,52 @@
             </button>
 
             <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#core">CORE</a>
-                <a href="#vision">Vision</a>
+                <a href="#about" data-i18n="nav.about">About</a>
+                <a href="#core" data-i18n="nav.core">CORE</a>
+                <a href="#vision" data-i18n="nav.vision">Vision</a>
                 <a class="nav-github" href="https://github.com/KampfZwerg1205/WORLDSEED-WEBSITE" target="_blank" rel="noopener noreferrer">
                     GitHub <span>↗</span>
                 </a>
                 <a class="nav-github" href="https://discord.gg/azn9qedMJR" target="_blank" rel="noopener noreferrer">
                     Discord <span>↗</span>
                 </a>
+                <button class="language-toggle" id="language-toggle"
+        type="button" role="switch" aria-checked="false"
+        aria-label="Switch language">
+    <span class="language-toggle__track" aria-hidden="true">
+        <span class="language-toggle__label language-toggle__label--off">EN</span>
+        <span class="language-toggle__label language-toggle__label--on">DE</span>
+    </span>
+    <span class="language-toggle__thumb">
+        <span class="language-flag" id="language-flag" aria-hidden="true">&#x1F1FA;&#x1F1F8;</span>
+    </span>
+</button>
             </div>
+                
         </nav>
     </header>
 
     <main>
         <section class="hero container" id="home">
             <div class="hero-content">
-                <div class="eyebrow">
+                <div class="eyebrow" data-i18n="hero.eyebrow">
                     <span class="status-indicator"></span>
                     AN INDEPENDENT TECHNOLOGY PROJECT
                 </div>
 
-                <h1>
+                <h1 data-i18n-html="hero.title">
                     BEYOND<br>
                     DIGITAL <span class="gradient-text">WORLDS.</span>
                 </h1>
 
-                <p class="hero-description">
+                <p class="hero-description" data-i18n="hero.description">
                     WORLDSEED is an independent technology project
                     with an ambitious vision: to explore and develop
                     new possibilities for interactive digital worlds.
                 </p>
 
                 <div class="hero-actions">
-                    <a class="button button-primary" href="#about">
+                    <a class="button button-primary" href="#about" data-i18n-html="hero.discover">
                         Discover the project <span>→</span>
                     </a>
 
@@ -109,7 +121,7 @@
                     </a>
                 </div>
 
-                <div class="hero-meta">
+                <div class="hero-meta" data-i18n-html="hero.meta">
                     <span>INDEPENDENT DEVELOPMENT</span>
                     <span class="meta-divider"></span>
                     <span>WORLDSEED PROJECT</span>
@@ -127,12 +139,12 @@
                     <span>W</span>
                 </div>
 
-                <div class="visual-label visual-label-top">
+                <div class="visual-label visual-label-top" data-i18n-html="hero.visualTop">
                     <span class="label-line"></span>
                     WORLD INITIALIZATION
                 </div>
 
-                <div class="visual-label visual-label-bottom">
+                <div class="visual-label visual-label-bottom" data-i18n-html="hero.visualBottom">
                     <span class="status-indicator"></span>
                     SYSTEM CONCEPT
                 </div>
@@ -141,10 +153,9 @@
 
         <section class="about-section section container" id="about">
             <div class="section-heading">
-                <span class="section-index">01 / INTRODUCTION</span>
-                <h2>One idea. <span class="gradient-text">A new direction.</span></h2>
-                <p>
-                    WORLDSEED is driven by the vision of creating
+                <span class="section-index" data-i18n="about.index">01 / INTRODUCTION</span>
+                <h2 data-i18n-html="about.title">One idea. <span class="gradient-text">A new direction.</span></h2>
+                <p data-i18n="about.description">WORLDSEED is driven by the vision of creating
                     technical foundations for complex and interactive
                     digital environments. The project is being developed
                     and expanded step by step.
@@ -155,9 +166,8 @@
                 <article class="info-card">
                     <span class="card-number">01</span>
                     <div class="card-icon">◇</div>
-                    <h3>Technology</h3>
-                    <p>
-                        Developing independent technical foundations
+                    <h3 data-i18n="about.card1.title">Technology</h3>
+                    <p data-i18n="about.card1.text">Developing independent technical foundations
                         and modular components.
                     </p>
                 </article>
@@ -165,9 +175,8 @@
                 <article class="info-card">
                     <span class="card-number">02</span>
                     <div class="card-icon">⌘</div>
-                    <h3>Modularity</h3>
-                    <p>
-                        Building a structured foundation designed
+                    <h3 data-i18n="about.card2.title">Modularity</h3>
+                    <p data-i18n="about.card2.text">Building a structured foundation designed
                         to evolve and expand over time.
                     </p>
                 </article>
@@ -175,9 +184,8 @@
                 <article class="info-card">
                     <span class="card-number">03</span>
                     <div class="card-icon">◎</div>
-                    <h3>Innovation</h3>
-                    <p>
-                        Exploring new technical approaches
+                    <h3 data-i18n="about.card3.title">Innovation</h3>
+                    <p data-i18n="about.card3.text">Exploring new technical approaches
                         and bringing them to life step by step.
                     </p>
                 </article>
@@ -206,22 +214,20 @@
                 </div>
 
                 <div class="core-content">
-                    <span class="section-index">02 / FOUNDATION</span>
-                    <h2>WORLDSEED <span class="gradient-text">CORE</span></h2>
+                    <span class="section-index" data-i18n="core.index">02 / FOUNDATION</span>
+                    <h2 data-i18n-html="core.title">WORLDSEED <span class="gradient-text">CORE</span></h2>
 
-                    <p>
-                        WORLDSEED CORE is a central part of the project.
+                    <p data-i18n="core.paragraph1">WORLDSEED CORE is a central part of the project.
                         Its focus is on an independent technical foundation
                         built around a modular structure.
                     </p>
 
-                    <p>
-                        Development progresses step by step, with an emphasis
+                    <p data-i18n="core.paragraph2">Development progresses step by step, with an emphasis
                         on extensibility, clear structures and long-term
                         technical growth.
                     </p>
 
-                    <a class="text-link"
+                    <a class="text-link" data-i18n-html="core.profile"
                        href="https://github.com/KampfZwerg1205"
                        target="_blank"
                        rel="noopener noreferrer">
@@ -233,10 +239,9 @@
 
         <section class="vision-section section container" id="vision">
             <div class="vision-content">
-                <span class="section-index">03 / THE VISION</span>
-                <h2>Not just another project.<br><span class="gradient-text">A foundation for what comes next.</span></h2>
-                <p>
-                    WORLDSEED is a long-term project.
+                <span class="section-index" data-i18n="vision.index">03 / THE VISION</span>
+                <h2 data-i18n-html="vision.title">Not just another project.<br><span class="gradient-text">A foundation for what comes next.</span></h2>
+                <p data-i18n="vision.description">WORLDSEED is a long-term project.
                     Every development phase lays the groundwork
                     for the next step.
                 </p>
@@ -246,13 +251,12 @@
         <section class="github-section container">
             <div class="github-card">
                 <div>
-                    <span class="section-index">OPEN DEVELOPMENT</span>
-                    <h2>Follow the development.</h2>
-                    <p>Explore the public repository and follow the project's progress.</p>
+                    <span class="section-index" data-i18n="github.index">OPEN DEVELOPMENT</span>
+                    <h2 data-i18n="github.title">Follow the development.</h2>
+                    <p data-i18n="github.description">Explore the public repository and follow the project's progress.</p>
                 </div>
 
-                <a class="button button-primary"
-                   href="https://github.com/KampfZwerg1205/WORLDSEED-WEBSITE"
+                <a class="button button-primary" data-i18n-html="github.button" href="https://github.com/KampfZwerg1205/WORLDSEED-WEBSITE"
                    target="_blank"
                    rel="noopener noreferrer">
                     GitHub Repository <span>↗</span>
@@ -268,7 +272,7 @@
                 <span>WORLDSEED<span class="brand-dot">.</span></span>
             </a>
 
-            <p>Independent project. Built step by step.</p>
+            <p data-i18n="footer.description">Independent project. Built step by step.</p>
 
             <span class="copyright">
                 © <span id="current-year">2026</span> WORLDSEED
